@@ -6,5 +6,5 @@ resources:
 
 images:
 - name: docker89781/sample-app
-  newTag: "27"
+  newTag: "1"
 
