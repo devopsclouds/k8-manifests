@@ -1,0 +1,13 @@
+image:
+  repository: docker89781/sample-app
+  tag: "27"
+
+containerPort: 8080
+
+service:
+  type: ClusterIP
+  port: 8080
+
+labels:
+  app: javaapp
+  tier: dev
